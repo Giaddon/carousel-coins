@@ -1,6 +1,10 @@
 import React from "react";
 import "./Card.css";
 
+/** Card component. Renders a div that contains an image and a caption
+ * provided by parent carousel. 
+ */
+
 function Card(props) {
   return (
     <div className="Card">
